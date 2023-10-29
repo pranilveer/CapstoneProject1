@@ -6,38 +6,10 @@ const Movies = () => {
 
   return (
     <>
-      <div
-        style={{
-          width: "100vw",
-          minHeight: "100vh",
-          background: "black",
-          overflowX: "hidden",
-          maxHeight: "100vh",
-        }}
-      >
-        <img
-          src={Profile}
-          style={{
-            position: "absolute",
-            top: "2vh",
-            right: "3vw",
-            height: "60px",
-            width: "60px",
-          }}
-        />
-        <p
-          style={{
-            color: "green",
-            fontSize: "3rem",
-            margin: "1vw",
-          }}
-          className={styles.header}
-        >
-          Super app
-        </p>
-        <p style={{ color: "white", fontSize: "2rem", margin: "2vw" }}>
-          Entertainment according to your choice
-        </p>
+      <div className={styles.body}>
+        <img src={Profile} className={styles.img1}/>
+        <p className={styles.header}>Super app</p>
+        <p className={styles.p}>Entertainment according to your choice</p>
         {movies.map((movie) => (
           <List genre={movie} />
         ))}

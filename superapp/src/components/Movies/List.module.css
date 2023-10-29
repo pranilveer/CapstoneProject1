@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
+
 .heading {
   color: white;
   font-size: 2rem;
   margin-left: 2vw;
   color: #878787;
+  overflow-y: hidden;
+}
+
+.body{
+    width: 100vw;
+    min-height: 100vh;
+    background: black;
+    overflow-x: hidden;
+    max-height: 100vh; 
 }
 
 .header {
   font-family: "Single Day", cursive;
+  color: green;
+  font-size: 3rem;
+  margin: 1vw;
 }
 
 .box{
@@ -21,4 +34,23 @@
     width: 20vw;
     height: 25vh;
     border-radius: 12px;
+}
+
+.img1{
+    position: absolute;
+    top: 2vh;
+    right: 3vw;
+    height: 60px;
+    width: 60px;
+}
+
+.imgdiv{
+    margin: 20vw;
+    margin: 2vw;
+}
+
+.p{
+    color: white; 
+    font-size: 2rem;
+    margin: 2vw;
 }
