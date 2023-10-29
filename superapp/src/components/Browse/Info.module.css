@@ -1,0 +1,93 @@
+
+.body{
+    width: 30vw;
+    height: 26vh;
+    background: #5746EA;
+    border-radius: 12px;
+    padding: 6px;
+    display: flex;
+    gap: 12px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.imgdiv{
+    height: 85%;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    top: 2vh;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 25vw;
+    height: 90%;
+}
+
+.info1, .info2, .info3{
+    color: white;
+    margin: 0;
+}
+
+.info1{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.info2{
+    font-size: 16px;
+}
+
+.info3{
+    font-size: 28px;
+}
+
+.chips{
+    width: 22vw;
+    height: 26%;
+    overflow: auto;
+    scrollbar-width: none;
+    -webkit-scrollbar-width: none;
+}
+
+.btn{
+    background: #9F94FF;
+    border-radius: 12px;
+    width: 100px;
+    color: white;
+    border: none;
+    padding: 6px;
+    height: 30px;
+    flex-shrink: 0;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.span{
+    color: black;
+    margin-left: 4px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #9f94ff;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9f94ff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: purple;
+  }
