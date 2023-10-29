@@ -1,6 +1,7 @@
 import Info from "../components/Browse/Info";
 import Weather from "../components/Browse/Weather";
 import News from "../components/Browse/News";
+import Notes from "../components/Browse/Notes";
 const Browse = () => {
     return (
         <div style={{background:"black", width:"100vw", height:"100vh"}}>
@@ -15,7 +16,9 @@ const Browse = () => {
                             <Weather />
                         </div>
                     </div>
-                    <div style={{background:"yellow", width:"35vw", height:"60vh"}}></div>
+                    <div style={{ width:"35vw", height:"60vh"}}>
+                        <Notes />
+                    </div>
                 </div>
                 <div style={{background:"orange", width:"70vw", height:"30vh"}}></div>
             </div>
