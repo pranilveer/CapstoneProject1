@@ -1,0 +1,67 @@
+.body{
+    width: 66vw;
+    height: 30vh;
+    background: #1E2343;
+    border-radius: 12px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 12px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.circle{
+    border: 8px solid #090c1d65;
+    border-radius: 50%;
+    background-color: #0f122265;
+}
+
+.span{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.timer{
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-evenly;
+}
+
+.time{
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
+
+.timerdiv{
+    height: 30vh;
+    width: 60%;
+}
+
+.hour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.img{
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+
+.action{
+    background-color: #FF6A6A;
+    border-radius: 40px;
+    font-size: 22px;
+    width: 65%;
+    margin: 0 auto;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
