@@ -58,7 +58,7 @@ const Weather = () => {
                             <div >
                                 <img className={styles.img} src={weather.current.condition.icon} />
                             </div>
-                            <div>{weather.current.condition.text}</div>
+                            <div className={styles.imgtitle}>{weather.current.condition.text}</div>
                         </div>
                         <div className={styles.line}></div>
                         <div className={styles.block2}>

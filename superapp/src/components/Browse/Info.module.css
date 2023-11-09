@@ -26,7 +26,7 @@
     flex-direction: column;
     gap: 1px;
     width: 25vw;
-    height: 90%;
+    height: 100%;
 }
 
 .info1, .info2, .info3{
@@ -49,7 +49,7 @@
 
 .chips{
     width: 22vw;
-    height: 26%;
+    height: 100%;
     overflow: auto;
     scrollbar-width: none;
     -webkit-scrollbar-width: none;
@@ -61,11 +61,12 @@
     width: 100px;
     color: white;
     border: none;
-    padding: 6px;
-    height: 30px;
+    padding: 4px;
+    height: 25px;
     flex-shrink: 0;
-    margin: 10px;
-    font-size: 16px;
+    margin:5px 10px;
+    margin-left: 0;
+    font-size: 14px;
 }
 
 .span{
